@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+}
+/* 
+.pass{
+    animation-name: pass;
+    animation-duration: 3s;
+    /* animation-fill-mode: forwards; */
+    /* animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+/* }
+@keyframes pass {
+    50%{
+        background-color: white;
+    }
+    100%{
+         background-color: rgb(10, 236, 221);
+    }
+} */
+/* .level{
+    animation-name: level;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+} */
+/* @keyframes level {
+    50%{
+        background-color: rgb(10, 236, 221);
+    }
+    100%{
+        background-color: white;
+    }
+}  */
+.text-in{
+    width: 200px;
+    margin: auto;
+}
+textarea{
+   height: 100px;
+}
+textarea::placeholder{
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.splen{
+    color: blue;
+    animation-name: turn;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes turn {
+        100%{
+            transform: rotate(-73830deg);
+            
+        }
+}
+
+.black{
+    color: black;
+}
+.submit{
+    background-color: black;
+    margin-left: 15px;
+}
